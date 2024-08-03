@@ -1,0 +1,14 @@
+name: mic2midi
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - poetry
+  - ipykernel
+  - numpy
+  - scipy
+  - matplotlib
+  - pygame
+  - pip:
+      - python-rtmidi
+      - sounddevice
